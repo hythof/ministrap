@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="utf-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta content="DEFAULT" name=description>
+    <title>DEFAULT</title>
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="shortcut icon" href="/images/favicon-32.png">
+</head>
+<body>
+
+<header class="header">
+    <nav class="w-xl">
+        <a href="/" class="logo">ロゴを配置</a>
+        <ul>
+            <li><a href="#anchor-block" class="hover">ブロック</a>
+            <li><a href="#anchor-grid" class="hover">グリッド</a>
+            <li><a href="#anchor-form" class="hover">フォーム</a>
+            <li><a href="#anchor-typograpy" class="button">文字組み</a>
+        </ul>
+    </nav>
+</header>
+
+<section id="anchor-block">
+    <div class="w-xl">
+        <h2>ブロック要素</h2>
+        <div class="box">box</div>
+        <div class="box colored">box + colored</div>
+
+        <div class="box-top">box-top</div>
+        <div class="box-middle">box-middle</div>
+        <div class="box-middle border-top">box-middle + border-top</div>
+        <div class="box-bottom colored border-top">box-bottom + colored + border-top</div>
+
+        <div class="w-xl box">w-xl + box</div>
+        <div class="w-l box">w-l + box</div>
+        <div class="w-m box">w-m + box</div>
+        <div class="w-s box">w-s + box</div>
+        <div class="w-xs box">w-xs + box</div>
+
+        <div class="clearfix">
+            <div class="box float-left">float-left box</div>
+            <div class="box float-right">float-right box</div>
+        </div>
+
+
+        <pre class="box">box
+pre1
+pre2
+pre3</pre>
+        <blockquote class="quote">quote<br>blockquote 1<br>blockquote 2</blockquote>
+
+    </div>
+</section>
+
+<section id="anchor-grid" class="break">
+    <div class="w-xl">
+        <h2 class="space">グリッドシステム</h2>
+        <p>grid system example</p>
+        <div class="row">
+          <div class="col4 box">col4 + border</div>
+          <div class="col4 box">col4 + border</div>
+          <div class="col4 box">col4 + border</div>
+        </div>
+        <div class="row">
+          <div class="col8 box">col8 + border</div>
+          <div class="col4 box">col4 + border</div>
+        </div>
+    </div>
+</section>
+
+<section id="anchor-typograpy" class="break space">
+    <div class="w-xl">
+        <h2 class="space">文字組み</h2>
+        <div class="box">
+            <div class="row"><h1 class="col8">h1 - Heading Text <span class="small">Secondary text</span></h1><div class="text-right col4">36px</div></div>
+            <div class="row"><h2 class="col8">h2 - Heading Text <span class="small">Secondary text</span></h2><div class="text-right col4">30px</div></div>
+            <div class="row"><h3 class="col8">h3 - Heading Text <span class="small">Secondary text</span></h3><div class="text-right col4">24px</div></div>
+            <div class="row"><h4 class="col8">h4 - Heading Text <span class="small">Secondary text</span></h4><div class="text-right col4">18px</div></div>
+            <div class="row"><h5 class="col8">h5 - Heading Text <span class="small">Secondary text</span></h5><div class="text-right col4">14px</div></div>
+            <div class="row"><h6 class="col8">h6 - Heading Text <span class="small">Secondary text</span></h6><div class="text-right col4">12px</div></div>
+        </div>
+        <div class="box">
+            <h1>h1 Headline Text</h1>
+            <p class="lead">lead Lead Text</p>
+            <p>paragraph text 1</p>
+            <p>paragraph text 2</p>
+            <hr class="l">
+            <hr class="m">
+            <hr class="s">
+            <div class="text-left">text-left</div>
+            <div class="text-center">text-center</div>
+            <div class="text-right">text-right</div>
+            <div class="small">small</div>
+            <div class="big">big</div>
+            <div class="strong">strong</div>
+            <div class="italic">italic</div>
+
+            <hr class="m">
+            <h2>ul</h2>
+            <ul>
+                <li>ul - li 1</li>
+                <li>ul - li 2</li>
+                <li class="none">
+                    <ul>
+                        <li>nest - ul - li 1</li>
+                        <li>nest - ul - li 2</li>
+                        <li>nest - ul - li 3</li>
+                    </ul>
+                </li>
+                <li>ul - li 3</li>
+            </ul>
+
+            <hr class="m">
+            <h2>ol</h2>
+            <ol>
+                <li>ol - li</li>
+                <li>ol - li</li>
+                <li class="none">
+                    <ol>
+                        <li>nest - ol - li 1</li>
+                        <li>nest - ol - li 2</li>
+                        <li>nest - ol - li 3</li>
+                    </ol>
+                </li>
+                <li>ol - li</li>
+            </ol>
+        </div>
+    </div>
+</section>
+
+<section class="space border-top colored" class="break">
+    <form class="w-m box c-white form clearfix">
+        <h2 class="space">Contact Form</h2>
+        <label>name<input type="text" name="name"></label>
+        <label>emal<input type="text" name="name"></label>
+        <label>desc<textarea name="text"></textarea></label>
+        <button class="button float-right">Submit</button>
+    </form>
+</section>
+
+<footer class="footer">
+    <div class="w-xl">
+        <div class="text-center">&copy; 2016</div>
+    </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>

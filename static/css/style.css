@@ -1,0 +1,91 @@
+/* ---( reset )------------------------------------------------------------------ */
+* { padding: 0; margin: 0; box-sizing: border-box; }
+html, body { height: 100%; }
+body       { font-size: 14px; line-height: 1.428; font-family: "Open Sans", "Helvetica Neue", Helvetica, "Arial", "Yu Gothic", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif; }
+h1         { font-size: 36px; font-weight: normal; }
+h2         { font-size: 30px; font-weight: normal; }
+h3         { font-size: 24px; font-weight: normal; }
+h4         { font-size: 18px; font-weight: normal; }
+h5         { font-size: 14px; font-weight: normal; }
+h6         { font-size: 12px; font-weight: normal; }
+a          { color: #0033ff; text-decoration: none; }
+a:hover    { text-decoration: underline; }
+ul,
+ol         { margin-left: 16px; }
+li.none    { list-style: none; }
+
+/* ---( layout )------------------------------------------------------------------ */
+.clearfix:before { display: table; content: " "; }
+.clearfix:after  { display: table; content: " "; clear: both; }
+.float-left      { float: left; }
+.float-right     { float: right; }
+.row:before      { display: table; content: " "; }
+.row:after       { display: table; content: " "; clear: both; }
+.row .col1       { width: 08.33%; float: left; }
+.row .col2       { width: 16.66%; float: left; }
+.row .col3       { width: 25.00%; float: left; }
+.row .col4       { width: 33.33%; float: left; }
+.row .col5       { width: 41.66%; float: left; }
+.row .col6       { width: 50.00%; float: left; }
+.row .col7       { width: 58.33%; float: left; }
+.row .col8       { width: 66.66%; float: left; }
+.row .col9       { width: 75.00%; float: left; }
+.row .col10      { width: 83.33%; float: left; }
+.row .col11      { width: 91.66%; float: left; }
+.row .col12      { width: 100.00%; float: left; }
+.w-xl            { width: 1000px; margin-left: auto; margin-right: auto; }
+.w-l             { width:  800px; margin-left: auto; margin-right: auto; }
+.w-m             { width:  600px; margin-left: auto; margin-right: auto; }
+.w-s             { width:  400px; margin-left: auto; margin-right: auto; }
+.w-xs            { width:  200px; margin-left: auto; margin-right: auto; }
+.lead            { font-size: 21px; font-weight: 300; line-height: 29.4px; }
+.quote           { margin-top: 10px; margin-bottom: 10px; padding: 10px 20px; border-left: solid 5px #e1e1e8; color: #424242; }
+.box             { padding: 10px 20px; margin-top: 10px; border: solid 1px #e1e1e8; border-radius: 6px; }
+.box-top         { padding: 10px 20px 0; margin-top: 10px; border-top:    solid 1px #e1e1e8; border-right: solid 1px #e1e1e8; border-left: solid 1px #e1e1e8; border-top-left-radius:    6px; border-top-right-radius:    6px; }
+.box-middle      { padding: 10px 20px;                   border-left:   solid 1px #e1e1e8; border-right: solid 1px #e1e1e8; }
+.box-bottom      { padding: 10px 20px;                   border-bottom: solid 1px #e1e1e8; border-right: solid 1px #e1e1e8; border-left: solid 1px #e1e1e8; border-bottom-left-radius: 6px; border-bottom-right-radius: 6px; }
+
+/* ---( typography )------------------------------------------------------------------ */
+.small        { font-size: 65%; color: #777; }
+.big          { font-size: 120%; color: #777; }
+.strong       { font-weight: 700; }
+.italic       { font-style: italic; }
+.text-left    { text-align: left; }
+.text-right   { text-align: right; }
+.text-center  { text-align: center; }
+.text-justify { text-align: justify; }
+.text-nowrap  { text-align: nowrap; }
+
+/* ---( border )------------------------------------------------------------------ */
+.border            { border: solid 1px #e1e1e8; }
+.border-top        { border-top:  solid 1px #e1e1e8; }
+.border-bottom     { border-top:  solid 1px #e1e1e8; }
+.border-left       { border-left: solid 5px #e1e1e8; }
+.border-right      { border-left: solid 5px #e1e1e8; }
+.break             { border-top: solid 1px #e1e1e8; margin-top: 30px; margin-bottom: 30px; padding-top: 30px; padding-bottom: 30px; }
+hr.l               { border-top: solid 1px #e1e1e8; border-left: none; border-bottom: none; border-right: none; margin: 30px 0; }
+hr.m               { border-top: solid 1px #e1e1e8; border-left: none; border-bottom: none; border-right: none; margin: 30px auto; width: 50%; }
+hr.s               { border-top: solid 1px #e1e1e8; border-left: none; border-bottom: none; border-right: none; margin: 30px auto; width: 30%; }
+hr.none            { margin: 30px 0; border: none; }
+
+/* ---( header / footer )------------------------------------------------------------------ */
+.header              { border-bottom: solid 1px #e1e1e8; margin-bottom: 20px; }
+.header:before       { display: table; content: " "; }
+.header:after        { display: table; content: " "; clear: both; }
+.header nav .logo    { display: block; padding: 20px 0; float: left; font-size: 22px; color: #000; }
+.header nav ul       { margin-top: 15px; list-style: none; float: right; }
+.header nav ul li    { float: left; }
+.header nav ul li a  { display: block; padding: 10px 15px; margin: 0 10px; }
+.footer              { background: #EEEEEE; color: #757575; padding-top: 10px; padding-bottom: 10px; margin-top: 50px; }
+
+.colored             { background: #f7f7f9; }
+.button              { background: #8BC34A; color: #ffffff; border-radius: 6px; }
+.button:hover        { background: #AED581; cursor: pointer; }
+.hover:hover         { background: #F5F5F5; border-radius: 6px; cursor: pointer; }
+
+/* ---( form )------------------------------------------------------------------ */
+.form                { background: #fff; }
+.form label          { display: block; margin-top: 20px; font-size: 16px; }
+.form label input    { display: block; margin-top: 5px; width: 100%; border: solid 1px #e1e1e8; font-size: 16px; padding: 10px 20px; }
+.form label textarea { display: block; width: 100%; height: 8em; border: solid 1px #e1e1e8; font-size: 16px; padding: 10px 20px; }
+.form .button        { padding: 10px 20px; margin-top: 10px; color: #ffffff; border: none; }

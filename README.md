@@ -1,0 +1,2 @@
+# Ministrap
+BootStrapが大きすぎたので使う範囲だけ抜粋したもの
